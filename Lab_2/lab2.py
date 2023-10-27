@@ -56,7 +56,7 @@ def save_reviews(a, agentIndex):
                     file.write(f"Название фильма: {movie_name}\n")
                     file.write(review_text)
                     
-                time.sleep(100) 
+                time.sleep(15) 
         
         except Exception as e:
             print("Ошибка при запросе страницы:", e)
